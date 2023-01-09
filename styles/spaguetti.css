@@ -1,0 +1,85 @@
+*{
+    background-color: antiquewhite;
+}
+.menu{
+    background-color: black;
+    height: 2em;
+}
+
+.menu .ulist .index .linki{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+
+.menu .ulist .index:hover{
+    color: blue;
+}
+
+.menu .ulist{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-size: 40px;
+}
+
+.img-1{
+    height: 400px;
+    width: 600px;
+    margin-left: 400px;
+}
+
+.ulistingredients{
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 100px;
+   
+}
+
+.istep1,.istep2,.istep3{
+    background-color: black;
+    
+}
+.ulistingredients .istep1{
+    color: yellow;
+    
+}
+
+.ulistingredients .istep2{
+    color: blue;
+   
+}
+
+.ulistingredients .istep3{
+    color: red;
+    
+}
+
+.olistdirections{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.dstep1,.dstep2,.dstep3{
+    background-color: black;
+}
+
+.olistdirections .dstep1{
+    color: yellow;
+}
+
+.olistdirections .dstep2{
+    color: blue;
+}
+.olistdirections .dstep3{
+    color: red;
+}

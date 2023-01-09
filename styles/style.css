@@ -1,0 +1,29 @@
+*{
+  background-color: #ffe6e6;
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+  color: black;
+}
+
+.listpages{
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.listpages .pizza{
+  color: red;
+  
+}
+.listpages .Spaguetti{
+  color: yellow;
+}
+.listpages .Tacos{
+  color: green;
+}
+.listpages:hover{
+  color: blue;
+}

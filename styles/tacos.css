@@ -1,0 +1,71 @@
+*{
+    background-color: antiquewhite;
+}
+.menu{
+    background-color: black;
+    height: 2em;
+}
+
+.menu .ulist .index .linki{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+
+.menu .ulist .index:hover{
+    color: blue;
+}
+
+.menu .ulist{
+    list-style-type: none;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+.img-1{
+    height: 400px;
+    width: 500px;
+    margin-left: 400px;
+}
+.ulisttingredients{
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.in1,.in2,.in3{
+    background-color: black;
+}
+
+.ulisttingredients .in1{
+    color:yellow
+}
+.ulisttingredients .in2{
+    color:blue
+}
+.ulisttingredients .in3{
+    color:red
+}
+
+.olistdirect{
+    background-color: black;
+    font-size: 20px;
+}
+
+.olistdirect .di1{
+    color: yellow;
+    
+}
+.olistdirect .di2{
+    color: blue;
+}
+
