@@ -1,5 +1,11 @@
 *{
-    background-color: #ffe6e6;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
 }
 .menu{
     background-color: black;
@@ -37,17 +43,62 @@ h2{
     text-align: center;
     margin-left: 300px;
 }
+#containerin{
+    background-color: black;
+    margin-top: 10px;
+    height: 500px;
+    
+}
+.titletwoin{
+    color: white;
+    display: inline-block;
+    margin: 5px 25% 5px 25%;
+    
+    background-color: brown;
+}
+.ptwoin{
+    color: black;
+    background-color:beige;
+    display: inline-block;
+    margin: 5px 25% 5px 25%;;
+}
 
 .twoingredients-steps{
     font-size: 20px;
+    background-color: aqua;
+    margin-left: 300px;
+    margin-top: 20px;
+    list-style-type: none;
+    background-color:#5f8d37;
+    width: 800px;
+    height: 200px;
 }
-.twoingredients-steps  .yogurt{
-    color: grey;
-    font-size: 30px;
+  .yogurt{
+    color: black;
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 200px;
+    
+    
+    
+    
+}
+ .self-rising{
+    color: black;
+    background-color: aqua;
+    
+    width: 50%;
+    margin: 0px;
+    margin-left: 200px;
+    height: 50%;
 }
 
 .ingredients-list{
     font-size: 30px;
+    display: inline-block;
 }
 
 .ingredients-list .firstin{
