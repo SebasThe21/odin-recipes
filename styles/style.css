@@ -1,5 +1,5 @@
 *{
-  
+    
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,40 +7,56 @@
 body{
   background-color: antiquewhite;
 }
-h1{
+.tcontainer{
+  width: 90%;
+  background-color: #813531;
+  margin: 0 auto;
+}
+.tcontainer__title{
   font-size: 80px;
   text-align: center;
-  color: black;
+  color: #e32929;
 }
-#container {
-  background-color: black;
-  margin-top: 100px;
-  border:5px solid white;
+
+.container{
+  background-color: #813531;
+  width: 50%;
+  margin: 40px auto;
+  border:5px solid #ff611d;
 }
- .listpages{
+
+.listpages{
   font-size: 60px;
-  text-decoration: none;
-  color: black;
-  
-  background-color:turquoise;
-  text-align: center;
-  margin: 10px 100px 10px 100px; 
   list-style-type: none;
+  color: #813531;
   
+}
+.listpages__item{
   
 }
 
- .listpages .pizza{
-  color: red;
-  
+.listpages__link{
+  text-decoration: none;
+  color: 	#ffb80e;
 }
- .listpages .Spaguetti{
-  color: yellow;
-  
-}
-.listpages .Tacos{
+
+.listpages__link--colorgreen{
   color: green;
 }
-.listpages:hover{
-  color: blue;
+
+.listpages__link--colorgreen:hover{
+  color: yellowgreen;
 }
+
+.listpages__link--hoverdarkyellow:hover{
+  color: #b36b00;
+}
+
+.listpages__link--redcoloryhover{
+  color: red;
+}
+
+.listpages__link--redcoloryhover:hover{
+  color: green;
+}
+

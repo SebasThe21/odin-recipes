@@ -7,114 +7,20 @@
 body{
     background-color: antiquewhite;
 }
+
 .menu{
+    width: 100%;
     background-color: black;
 }
-.menu .list.index.link{
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    
-}
-.menu .list{
-    list-style-type:none;
-    
-}
 
-.menu.list.index.link:hover{
-    color: blue;
-}
-
-h1{
-    font-size: 80px;
-    text-align: center;
-}
-p{
-    font-size: 30px;
-}
-
-h2{
-    font-size: 60px;
-    text-align: center;
-}
-.img-1,
-.img-2{
-   height: 550px;
-    text-align: center;
-    margin-left: 300px;
-}
-#containerin{
-    background-color: black;
-    margin-top: 10px;
-    height: 500px;
-    
-}
-.titletwoin{
-    color: white;
-    display: inline-block;
-    margin: 5px 25% 5px 25%;
-    
-    background-color: brown;
-}
-.ptwoin{
-    color: black;
-    background-color:beige;
-    display: inline-block;
-    margin: 5px 25% 5px 25%;;
-}
-
-.twoingredients-steps{
-    font-size: 20px;
-    background-color: aqua;
-    margin-left: 300px;
-    margin-top: 20px;
+.menu__list{
     list-style-type: none;
-    background-color:#5f8d37;
-    width: 800px;
-    height: 200px;
-}
-  .yogurt{
-    color: black;
-    background-color: aliceblue;
-    width: 50%;
-    height: 50%;
-    font-size: 20px;
-    margin: 0px;
-    margin-left: 200px;
-    
-    
-    
-    
-}
- .self-rising{
-    color: black;
-    background-color: aqua;
-    
-    width: 50%;
-    margin: 0px;
-    margin-left: 200px;
-    height: 50%;
 }
 
-.ingredients-list{
-    font-size: 30px;
-    display: inline-block;
+.menu__item{
+
 }
 
-.ingredients-list .firstin{
-    color: violet;
-}
-
-.steps-list{
-    font-size: 20px;
-}
-.steps-list .firststep{
-    color: orange;
-    font-size: 30px;
-}
-.steps-list .secondstep{
-    color: tomato;
-}
-.steps-list .thirdstep{
-    color: burlywood;
+.menu__link{
+    text-decoration: none;
 }
