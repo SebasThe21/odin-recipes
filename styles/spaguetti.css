@@ -1,88 +1,83 @@
 *{
-    background-color: antiquewhite;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #fffa8a;
+}
+
 .menu{
+    width: 100%;
     background-color: black;
-    height: 2em;
+    height: 30px;
 }
 
-.menu .ulist .index .linki{
-    text-decoration: none;
-    color:white;
-    font-size: 25px;
-}
-
-.menu .ulist .index:hover{
-    color: blue;
-}
-
-.menu .ulist{
+.menu__list{
     list-style-type: none;
+    
 }
 
-h1{
-    text-align: center;
-    font-size: 80px;
+.menu__item{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+
 }
-h2{
+
+.menu__link{
+    text-decoration: none;
+    color: white;
+}
+
+.menu__link:hover{
+    color: #DED9D7;
+}
+
+.containertext{
+    width: 80%;
+    background-color: 	#b43a06;
+    margin: 10px auto;
+    border: 3px solid black;
+}
+
+.containertext__title{
     font-size: 60px;
     text-align: center;
-}
-p{
-    font-size: 40px;
+    color: #fbcd5f;
 }
 
-.img-1{
-    height: 400px;
-    width: 600px;
-    margin-left: 400px;
-}
-
-.ulistingredients{
-    font-size: 30px;
-    list-style-type: none;
-    margin-left: 100px;
-   
-}
-
-.istep1,.istep2,.istep3{
-    background-color: black;
-    
-}
-.ulistingredients .istep1{
-    color: yellow;
-    
-}
-
-.ulistingredients .istep2{
-    color: blue;
-   
-}
-
-.ulistingredients .istep3{
-    color: red;
-    
-}
-
-.olistdirections{
+.containertext__text{
     font-size: 20px;
+    color: black;
+    
+}
+
+.imagen{
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    display: block;
+    border: 5px solid black;
+
+}
+
+.containerlist{
+
+    background-color: #6d1616;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.list-spa{
     list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    color: 	#ffe5a8;
+    border: 3px solid black;
 }
 
-.dstep1,.dstep2,.dstep3{
-    background-color: black;
-}
-
-.olistdirections .dstep1{
-    color: yellow;
-}
-
-.olistdirections .dstep2{
-    color: blue;
-}
-.olistdirections .dstep3{
-    color: red;
+.list-spa__item{
+    margin-bottom: 5px;
 }

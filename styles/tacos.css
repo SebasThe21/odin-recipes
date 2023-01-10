@@ -1,74 +1,75 @@
 *{
-    background-color: antiquewhite;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #fffa8a;
+}
+
 .menu{
+    width: 100%;
     background-color: black;
-    height: 2em;
+    height: 30px;
 }
 
-.menu .ulist .index .linki{
+.menu__list{
+    list-style-type: none;
+    
+}
+
+.menu__item{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.menu__link{
     text-decoration: none;
-    color:white;
-    font-size: 25px;
+    color: white;
 }
 
-.menu .ulist .index:hover{
-    color: blue;
+.menu__link:hover{
+    color: #DED9D7;
 }
 
-.menu .ulist{
-    list-style-type: none;
+.containertext{
+    width: 80%;
+    margin: 5px auto;
 }
-h1{
-    font-size: 80px;
+
+.containertext__title{
     text-align: center;
-}
-
-p{
-    font-size: 30px;
-}
-h2{
+    
     font-size: 60px;
-    text-align: center;
-}
-.img-1{
-    height: 400px;
-    width: 500px;
-    margin-left: 400px;
-}
-.ulisttingredients{
-    font-size: 30px;
-    list-style-type: none;
-    margin-left: 100px;
 }
 
-.in1,.in2,.in3{
-    background-color: black;
-}
-
-.ulisttingredients .in1{
-    color:yellow
-}
-.ulisttingredients .in2{
-    color:blue
-}
-.ulisttingredients .in3{
-    color:red
-}
-
-.olist-direct{
-    background-color: black;
+.containertext__text{
     font-size: 20px;
 }
 
-.olist-direct .di1{
-    color: yellow;
-    
-}
-.olist-direct .di2{
-    color: blue;
+.imagen{
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    display: block;
+    border: 5px solid black;
+
 }
 
+.containerlist{
+    width: 60%;
+    margin: 5px auto;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.list-tacos{
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-tacos__item{
+    margin-bottom: 5px;
+}

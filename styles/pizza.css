@@ -5,22 +5,132 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-color: #fffa8a;
 }
 
 .menu{
     width: 100%;
     background-color: black;
+    height: 30px;
 }
 
 .menu__list{
     list-style-type: none;
+    
 }
 
 .menu__item{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
 
 }
 
 .menu__link{
     text-decoration: none;
+    color: white;
+}
+
+.menu__link:hover{
+    color: #DED9D7;
+}
+
+.tcontainer{
+    background-color: #dba24a;
+    width: 80%;
+    margin:0 auto;
+    border: 5px solid black;
+
+}
+.tcontainer__title{
+    text-align: center;
+    font-size: 60px;
+}
+.pcontainer{
+    background-color: #dba24a;
+    width: 70%;
+    margin: 30px auto;
+    border: 5px solid black;
+
+}
+.pcontainer__text{
+    font-size: 20px;
+    color: black;
+}
+
+.container{
+    background-color: #dba24a;
+    width: 40%;
+    border: 5px solid black;
+
+
+}
+
+.imagen{
+    width: 250px;
+    height: 200px;
+    margin: 10px auto;
+    display: block;
+    border: 5px solid black;
+
+}
+
+.texttwosteps{
+    background-color: #dba24a;
+    width: 100%;
+    margin: 10px auto;
+    border: 5px solid black;
+}
+
+.texttwosteps__title{
+    font-size: 50px;
+    text-align: center;
+}
+.texttwosteps__text{
+    font-size: 20px;
+    text-align: center;
+}
+
+.twocontainer{
+    background-color: #e1d800;
+    width: 70%;
+    margin: 15px auto;
+    border: 5px solid black;
+}
+
+.liststeps{
+ list-style-type: none;
+ font-size: 20px;
+}
+
+.liststeps__item{
+    
+
+}
+.liststeps__item--colorred{
+    color: #ce0000;
+    margin-bottom: 10px;
+}
+
+.liststeps__item--coloredbrown{
+    color: #dba24a;
+    background-color: black;
+}
+
+.texttwosteps--backco--margin{
+    background-color: #dba24a;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.texttwosteps--backco--margin__title{
+    font-size: 50px;
+    text-align: center;
+}
+.imagen--addsize{
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    display: block;
+    border: 5px solid black;
 }
